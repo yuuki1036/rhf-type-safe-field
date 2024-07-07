@@ -1,11 +1,13 @@
+import { Container, Typography } from '@mui/material';
+import MyForm from './components/form';
 import './App.css';
-import RHFZodForm from './components/zod';
 
 function App() {
   return (
-    <>
-      <RHFZodForm />
-    </>
+    <Container maxWidth={'xl'}>
+      <Typography variant="h3">React Hook Form</Typography>
+      <MyForm />
+    </Container>
   );
 }
 
