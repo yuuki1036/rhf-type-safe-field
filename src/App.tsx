@@ -1,6 +1,6 @@
 import { Container, Typography } from '@mui/material';
 import MyForm from './components/form';
-import './App.css';
+import './index.css';
 
 function App() {
   return (
